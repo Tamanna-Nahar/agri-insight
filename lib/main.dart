@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'ui/screen/onboarding_screen.dart';
+import 'ui/screen/form.dart.dart'
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Onboarding Screen',
-      home: OnboardingScreen(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
 
     );
