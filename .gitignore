@@ -61,4 +61,4 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
-lib/ui/firebase_options.dart
+firebase_options.dart
