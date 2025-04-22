@@ -73,7 +73,7 @@ class _NewsScreenState extends State<NewsScreen> {
       default:
         query = "agriculture";
     }
-    final apiKey = "927a4244a6af4b3abc1c71b38568d169";
+    final apiKey = "YOUR_API_KEY";
     final url = "https://newsapi.org/v2/everything?q=$query&apiKey=$apiKey";
 
     _fetchNews(url, newsModelList);
