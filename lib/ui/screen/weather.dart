@@ -86,7 +86,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   }
 
   Future<void> _fetchWeather() async {
-    final apiKey = 'd9ad5815389189f0612e3f3d7a31aa25';
+    final apiKey = 'YOUR_API_KEY';
     final url =
         'https://api.openweathermap.org/data/2.5/forecast?lat=${_currentPosition.latitude}&lon=${_currentPosition.longitude}&appid=$apiKey&units=metric';
 
