@@ -119,7 +119,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
       _errorMessage = null;
     });
 
-    final apiKey = 'd9ad5815389189f0612e3f3d7a31aa25';
+    final apiKey = 'ur api';
     final url =
         'https://api.openweathermap.org/data/2.5/forecast?q=$cityName&appid=$apiKey&units=metric';
 
