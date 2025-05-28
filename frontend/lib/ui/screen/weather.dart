@@ -90,7 +90,6 @@ class _WeatherScreenState extends State<WeatherScreen> {
     final url =
         'https://api.openweathermap.org/data/2.5/forecast?lat=${_currentPosition.latitude}&lon=${_currentPosition.longitude}&appid=$apiKey&units=metric';
 
-    //https://api.openweathermap.org/data/2.5/weather?appid=d9ad5815389189f0612e3f3d7a31aa25
     try {
       final response = await http.get(Uri.parse(url));
       if (response.statusCode == 200) {
