@@ -158,7 +158,7 @@ class _NewsScreenState extends State<NewsScreen> {
                 final query = Uri.encodeQueryComponent(value.trim());
                 if (query.isNotEmpty) {
                   _fetchNews(
-                    "https://newsapi.org/v2/everything?q=$query&apiKey=927a4244a6af4b3abc1c71b38568d169",
+                    "https://newsapi.org/v2/everything?q=$query&apiKey="api_key"",
                     newsModelList,
                   );
                 }
