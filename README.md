@@ -1,38 +1,46 @@
-# 🌾 Agri Insight – AI-Powered Agriculture Support App
+# 🌾 Agri Insight – Smart Farming Companion App
 
-Agri Insight is a mobile application developed to assist farmers and agricultural enthusiasts by providing intelligent crop recommendations, real-time weather updates, and agricultural news. The app integrates machine learning and APIs to help users make informed decisions based on soil and environmental conditions.
+Agri Insight is a mobile app designed to support farmers and agriculture enthusiasts. It provides smart crop recommendations, weather updates, and agri-related news, all in one place. The goal is to help users make better decisions by using real-time data and machine learning.
+
+> ⚠️ Note: This is a work-in-progress project. Some features are yet to be fully completed and integrated.
 
 ---
 
-## 📱 Features
+## 🔑 Key Features
 
-- 🌱 **Crop Recommendation System** (based on soil type and weather)
-- ☁️ **Weather Forecast Integration** (via Weather API)
-- 📰 **Agri News Feed** (latest agricultural news using News API)
-- 🗓️ **Crop Calendar Tracker** (track crop growth and sowing dates)
-- 🔐 **User Authentication** (via Firebase)
-- 📊 **Data Storage** (Firebase Realtime Database)
+- **Crop Recommendation** – Suggests crops based on soil, weather, and other parameters (using a machine learning model).
+- **Weather Forecast** – Displays real-time weather data via Weather API.
+- **Agri News Feed** – Pulls recent agricultural news using News API.
+- **Crop Calendar Tracker** – Lets users input sowing dates and track growth timelines.
+- **User Authentication** – Basic login/signup functionality using Firebase.
+- **Data Storage** – Stores user and crop data in Firebase Realtime Database.
 
 ---
 
 ## 🛠 Tech Stack
 
 - **Frontend:** Flutter (Dart)
-- **Backend / ML Model:** Python (Scikit-learn, Pandas)
-- **Database:** Firebase Realtime Database
+- **Backend/ML:** Python (Random Forest), Firebase
 - **APIs Used:** Weather API, News API
-- **IDE:** Android Studio, VS Code
+- **Database:** Firebase Realtime Database
 
 ---
 
-## 💡 Machine Learning
+## 🧠 Machine Learning Model
 
-The crop recommendation system uses a **Random Forest Classifier** trained on a dataset containing soil type, temperature, humidity, and season to suggest the most suitable crops.
+The crop recommendation is powered by a Random Forest Classifier trained on environmental and soil parameters like:
 
-## 🚀 Getting Started
+- Soil type
+- Temperature
+- Humidity
+- Season
 
-### Prerequisites
-- Flutter SDK
-- Python 3.x
-- Firebase account
-- API keys for Weather and News
+The model predicts suitable crops for the given conditions. Integration with the app is still in progress.
+
+---
+
+## 🔌 APIs Used
+
+- **Weather API** – for weather updates
+- **News API** – to fetch agricultural news
+- **Firebase** – for user authentication and data storage
