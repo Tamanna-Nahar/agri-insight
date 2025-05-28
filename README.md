@@ -35,7 +35,7 @@ The crop recommendation is powered by a Random Forest Classifier trained on envi
 - Humidity
 - Season
 
-The model predicts suitable crops for the given conditions.
+The model predicts suitable crops for the given conditions. 
 
 ---
 
